@@ -1,0 +1,43 @@
+.img_all {
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    margin: 10px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+    border-collapse: collapse;
+}
+table {
+    width: 100%;
+    border: 2px solid #DDD;
+    border-collapse: collapse;
+}
+.soul-color {
+    background-color: #CC944D;
+}
+tbody td {
+    border: 2px solid #DDD;
+}
+.time-green {
+    background-color: green;
+}
+.space-color {
+    background-color: #22578E;
+}
+.mind-color {
+    background-color: yellow;
+}
+.reality-color {
+    background-color: #B23834;
+}
+.power-color {
+    background-color: #8077B2;
+}

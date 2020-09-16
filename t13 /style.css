@@ -1,0 +1,13 @@
+.frank {
+    width: 100px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+    padding-right: 30px;
+}
+
+@media print {
+    .frank {
+        float: none;
+    }
+}

@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Lato , sans-serif;
+}
+.all_img {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 750px;
+}
+.one_day {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 100px;
+    height: 200px;
+}
+
+.date {
+    width: 100px;
+    text-align: center;
+    background-color: steelblue;
+    height: 30px;
+    /*padding: 5px 50%;*/
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.temperature {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+.one_day:hover {
+    box-shadow: 0 0 20px 5px rgb(11, 149, 191);
+}

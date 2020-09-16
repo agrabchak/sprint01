@@ -1,0 +1,35 @@
+.match {
+    transform: scale(0.9, 1);
+}
+.stick {
+    margin: 0 auto;
+    height: 300px;
+    width: 30px;
+    background: linear-gradient(90deg, rgb(137,67,37), rgb(232,166,107));
+    position: relative;
+    border: 1px solid rgb(92, 44, 1);
+    top: 300px;
+}
+.top {
+    background: linear-gradient(180deg, white 5%, rgba(182,138,99,1) 33%, rgba(108,59,28,1) 60%, rgba(71,39,19,1) 100%);
+    border-radius: 45px/70px;
+    box-shadow: 0 -20px 20px 5px white;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+    top: 320px;
+    width: 45px;
+    z-index: 2;
+}
+.fire {
+    background: linear-gradient(-45deg, rgba(245,205,125,1) 0%, rgba(235,58,40,1) 100%);
+    border-radius: 0  50% 50% 50%;
+    box-shadow: 0 0 15px 2px #F1784C;
+    margin: 0 auto;
+    height: 160px;
+    position: relative;
+    top: 380px;
+    width: 150px;
+    z-index: 1;
+    transform: rotate(45deg);
+}

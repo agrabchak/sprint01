@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<h1>Settings</h1>
+<div class="first-background">
+    <form action="#">
+        <div class="typeface-div">
+            <div class="inscription">Typeface</div>
+            <select id="typeface" name="typeface">
+                <option value="acunim pro" selected>Acunim Pro</option>
+                <option value="comic sans">Comic Sans</option>
+                <option disabled value="times new roman">Times New Roman</option>
+            </select>
+            <label for="typeface" class="selected-type"></label>
+        </div>
+        <div class="box-slider">
+            <div class="inscription">Dark UI</div>
+            <label for="slider" class="slider">
+                <input type="checkbox" id="slider">
+                <span class="theme-slider"></span>
+            </label>
+        </div>
+        <div class="box-weight">
+            <div class="inscription">Weight</div>
+            <label for="regular" class="box">Regular
+                <input type="radio" id="regular" checked="checked" name="w1">
+                <span class="checkmark"></span>
+            </label>
+            <label for="bold" class="box">Bold
+                <input type="radio" id="bold" name="w1">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div class="box-color">
+            <div class="inscription">Color</div>
+            <div class="check-row">
+                <label for="color1" class="box color-checkbox">
+                    <input type="checkbox" id="color1">
+                    <span class="checkmark color-checkmark"></span>
+                </label>
+                <label for="color2" class="box color-checkbox">
+                    <input type="checkbox" id="color2">
+                    <span class="checkmark color-checkmark"></span>
+                </label>
+                <label for="color3" class="box color-checkbox">
+                    <input type="checkbox" id="color3">
+                    <span class="checkmark color-checkmark"></span>
+                </label>
+                <label for="color4" class="box color-checkbox">
+                    <input type="checkbox" id="color4">
+                    <span class="checkmark color-checkmark"></span>
+                </label>
+                <label for="color5" class="box color-checkbox">
+                    <input type="checkbox" checked="checked" id="color5">
+                    <span class="checkmark color-checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <div class="box-size">
+            <div class="inscription">Size</div>
+            <label for="size-box" class="size-box">
+                <input type="range" id="size-box" min="1" max="10" value="10">
+            </label>
+        </div>
+    </form>
+    <nav>
+        <ul class="all-items">
+            <li class="nav-item">
+                <img src="assets/images/artistic-brush.png" alt="brush">
+            </li>
+            <li class="nav-item">
+                <img src="assets/images/user-icon.png" alt="icon">
+            </li>
+            <li class="nav-item">
+                <img src="assets/images/sms-speech-bubble.png" alt="sms">
+            </li>
+            <li class="nav-item">
+                <img src="assets/images/computer-screen.png" alt="screen">
+            </li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>

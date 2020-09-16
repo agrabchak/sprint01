@@ -1,0 +1,25 @@
+.hand {
+    /*display: grid;*/
+    /*grid-template-rows: 1fr 1fr;*/
+    margin-bottom: 30px;
+    width: 150px;
+    height: 200px;
+    padding-left: 30px;
+}
+.list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-auto-flow: column;
+    grid-gap: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.hand:hover ~ div img:nth-child(odd) {
+    opacity: 0;
+    /*display: none;*/
+}

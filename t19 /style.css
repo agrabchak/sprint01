@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+    color: rgb(229,117,137);
+    padding-left: 30px;
+    font-weight: bolder;
+    font-size: 32px;
+}
+h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #808080;
+}
+#form {
+    width: 90%;
+}
+#form input, #form label {
+    height: 25px;
+}
+.box {
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.field {
+    display: none;
+}
+input:checked + label {
+    background-color: rgb(31, 42, 79);
+    color: white;
+    display: inline;
+}
+
+input:checked + label::after {
+    content: " ✓";
+}
+
+label:hover {
+    background-color: rgb(31, 42, 79);
+    color: white;
+}
+label {
+    border: 1px solid rgb(128, 128, 128); ;
+    border-radius: 65px;
+    padding: 5px;
+    color: rgb(128, 128, 128);
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+.job {
+    margin-left: 5%;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(211,211,211);
+    padding: 20px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.box-row {
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 55px;
+}
+.name, .email {
+    border: none;
+    border-bottom: 1px solid rgb(211,211,211);
+    padding: 20px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.send {
+    transition: all 2s ease;
+    margin-left: 5%;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(229,117,137);
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+    font-weight: 700;
+}
+.send:hover {
+    background-color: rgb(31, 42, 79);
+}

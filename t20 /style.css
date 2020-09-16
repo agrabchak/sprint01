@@ -1,0 +1,43 @@
+
+.element {
+    animation: 7s infinite moving;
+    animation-timing-function: linear;
+    background-color: green;
+    border-radius: 100%;
+    height: 250px;
+    transition: all 2.5s ease;
+    width: 250px;
+}
+
+.box {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.element:hover {
+    /*transition-duration: 2s ;*/
+    background-color: red;
+}
+@keyframes moving {
+    from {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: calc(100% - 250px);
+    }
+    to {
+        margin-left: 0;
+    }
+}

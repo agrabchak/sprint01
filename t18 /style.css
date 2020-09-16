@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 90%;
+    margin: 30px;
+}
+.search > input {
+    border-radius: 5px;
+    color: green;
+    flex-grow: 1;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search > button {
+    color: green;
+    height: 2em;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search > button:hover, .search > input:hover {
+    color: red;
+}

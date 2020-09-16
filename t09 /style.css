@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+form {
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 1em;
+    display: block;
+}
+.box {
+    border: 1px solid gray;
+    display: block;
+    margin: 20px;
+    position: relative;
+    padding: 15px 5px;
+}
+.box-name {
+    background: white;
+    margin-left: 5px;
+    top: -26.5px;
+    position: absolute;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+input, label {
+    margin: 15px 5px;
+}
+/*#size-range::-webkit-slider-thumb {*/
+/*    -webkit-appearance: none;*/
+/*    appearance: none;*/
+/*    background: white;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.size-range::-moz-range-thumb {*/
+/*    background: white;*/
+/*    cursor: pointer;*/
+/*}*/
